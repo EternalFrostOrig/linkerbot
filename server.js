@@ -6,8 +6,6 @@ const request = require('request');
 var DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN
 
 const bot = new Eris(DISCORD_BOT_TOKEN);   // Replace DISCORD_BOT_TOKEN in .env with your bot accounts token
- 
-var prefix = '?'
 
 var links = {
   // Format: Guild ID, webhook link
@@ -46,7 +44,7 @@ bot.on('messageCreate', (msg) => {
 });
  
 bot.editStatus('online', {
-  name: 'PREFIX: "' + prefix + '"',
+  name: 'Bwoop Bwoop Bwoop...',
   type: 0
 });
 
