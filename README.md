@@ -1,2 +1,1 @@
-# linkerbot
-Bot to link 2 discord channels together
+A bot that mutes users by deleting their messages
